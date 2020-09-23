@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accept_invitation_option"
+        android:title="Accept Invitation" />
+
+    <item
+        android:id="@+id/decline_invitation_option"
+        android:title="Decline Invitation" />
+
+    <item
+        android:id="@+id/view_members_option"
+        android:title="View Members" />
+</menu>
