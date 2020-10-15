@@ -1,6 +1,6 @@
 package com.hcl.kandy.cpass.utils;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.hcl.kandy.cpass.activities.HomeActivity;
