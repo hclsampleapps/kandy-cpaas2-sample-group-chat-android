@@ -1,12 +1,9 @@
 package com.hcl.kandy.cpass.groupChat;
 
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.Uri;
-import android.support.v4.content.FileProvider;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.core.content.FileProvider;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,11 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.hcl.kandy.cpass.R;
-import com.rbbn.cpaas.mobile.messaging.api.Attachment;
 import com.rbbn.cpaas.mobile.messaging.api.Message;
-import com.rbbn.cpaas.mobile.messaging.api.Part;
 
-import java.io.File;
 import java.util.List;
 
 public class GroupChatMessageListAdapter extends RecyclerView.Adapter<GroupChatMessageListAdapter.MyViewHolder> {
