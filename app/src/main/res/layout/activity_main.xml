@@ -29,8 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:hint="nvs-cpaas-oauth.kandy.io"
-                android:text="oauth-cpaas.att.com" />
+                android:hint="nvs-cpaas-oauth.kandy.io" />
 
             <RadioGroup
                 android:id="@+id/rg_login_type_selection"
@@ -84,7 +83,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Test@123"
-                    android:text="Test@123"
                     android:inputType="textPassword" />
 
                 <TextView
@@ -97,7 +95,6 @@
                     android:id="@+id/et_user_client"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="PUB-karan.prod.lwjn"
                     android:hint="PUB-test123" />
 
             </LinearLayout>
