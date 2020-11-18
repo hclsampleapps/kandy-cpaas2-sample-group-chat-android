@@ -28,8 +28,7 @@
                 android:id="@+id/et_url"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:hint="nvs-cpaas-oauth.kandy.io" />
+                android:hint="oauth-cpaas.att.com" />
 
             <RadioGroup
                 android:id="@+id/rg_login_type_selection"
