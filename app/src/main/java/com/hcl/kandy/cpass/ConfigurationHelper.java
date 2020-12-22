@@ -8,7 +8,6 @@ public class ConfigurationHelper {
 
     public static void setConfigurations(String baseUrl) {
         Configuration configuration = Configuration.getInstance();
-        configuration.setDTLS(true);
         configuration.setIceOption(ICEOptions.ICE_VANILLA);
         configuration.setICECollectionTimeout(12);
         setPreferedCodecs(baseUrl);
